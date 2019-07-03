@@ -27,12 +27,15 @@ a {
   color: #32c3ff;
 }
 
+.color-white {
+  color: white;
+}
+
 .button {
   border-radius: 12px;
   border: 2px solid white;
   color: white;
   padding: 5px;
-  text-transform: uppercase;
   font-size: 0.9em;
   letter-spacing: 1px;
   width: 100px;
@@ -53,6 +56,47 @@ nav img {
 }
 
 .hero {
-  padding: 200px;
+  padding: 123px;
   text-align: center;
+  font-size: 1.7em;
+}
+
+.button.button-blue {
+  background-color: #32c3ff;
+  border: none;
+  padding: 20px 40px;
+  font-size: 0.9em;
+}
+
+aside {
+  padding: 50px 0;
+}
+aside ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+li img {
+  width: 10%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+aside h2 {
+  color: rgba(45, 53, 76, 0.4);
+  text-align: center;
+}
+
+hr {
+  color: grey;
+}
+
+.photo-group {
+  width: 600px;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.quote {
 }
